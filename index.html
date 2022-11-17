@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Movie Search</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/secondStyle.css">
+  </head>
+  <body style="height: auto;" class="all-shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Movie Search</a>
+      </div>
+    </nav>
+  
+    <div class="container">
+      <div class="jumbotron">
+          <h3 class="text-center">Search Movie</h3>
+          <form id="searchForm">
+              <input type="text" class="form-control" id="searchText" placeholder="Search Movie" autocomplete="off">
+          </form>
+      </div>
+    </div>
+  
+    <div class="container" style="min-height: 52.9%;">
+      <div id="movies" class="row">
+        <div id="Column1" class="col-md-3">
+            
+        </div>
+        <div  id="Column2"class="col-md-3">
+            
+        </div>
+        <div id="Column3" class="col-md-3">
+            
+        </div>
+        <div id="Column4" class="col-md-3">
+            
+        </div>
+        
+      </div>
+    </div>
+    <div style="text-align: center; margin-bottom: 2.92%;">
+      <ul id="moviePagination" class="pagination pagination-lg" style="display: inline-flex;">
+        
+      </ul>
+    </div>
+    <div>
+
+      <a class="btn btn-primary btn-circle" href="#">↑</a>
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark footer bottom-shadow" style="padding-top: 22px;">
+      
+      <form action="MAILTO:vitalie01rus01@gmail.com">
+        Встал вопрос? Напишите нам на почту:
+        <input type="submit" value="vitalie01rus01@gmail.com" style="text-decoration: underline; color: #5082da; border: 0;" class="btn">
+      </form>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
